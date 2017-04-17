@@ -22,3 +22,11 @@ Description: Change the number of features in the first convolution layer to 8.
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
+
+Names: Evan Wolf, Brendan Routh, Gab Gonclaves
+
+Description: add a second fully connected layer of size 1024.
+
+Summary Results:
+- Took 11 epochs to get a validation accuracy of 0.4
+- Validation accuracy after epoch 100: 0.593619 (batch size = 100)
