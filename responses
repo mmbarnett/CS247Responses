@@ -14,3 +14,11 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 6
 Validation accuracy after 100 epochs (batch_size = 100): 0.50790161
 
+
+Names: Daniel Mariselli, Alex Chou, Carina Corbin
+
+Description: Change the number of features in the first conversation layer to 8.
+
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
