@@ -22,3 +22,20 @@ Description: Change the number of features in the first convolution layer to 8.
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
+
+Names: Daniel Mariselli, Alex Chou, Carina Corbin
+
+Description: Change the number of features in the first convolution layer to 8.
+
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
+
+
+Names: Andrew Kim, Emily Masten
+
+Description: Change the number of features in the second convolution layer to 32.
+
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.64112824
