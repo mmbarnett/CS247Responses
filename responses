@@ -30,3 +30,12 @@ Description: add a second fully connected layer of size 1024.
 Summary Results:
 - Took 11 epochs to get a validation accuracy of 0.4
 - Validation accuracy after epoch 100: 0.593619 (batch size = 100)
+
+
+Names: Saharsha Karki, Evelyn Ting, Zach Bessette
+
+Description: Change the size of the fully connected hidden layer to 256
+
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 2
+Validation accuracy after 100 epochs (batch_size = 100): 0.643529
