@@ -79,3 +79,9 @@ Description: Add a second fully connected layer but make the size of both 128.
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
+
+Names: Jeff Ewing, Sam Procter, Jake Meyer
+Description: Change the number of features of the first conv layer to 16
+Summary of Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 2
+Validation accuracy after 100 epochs (batch_size = 100): 0.57431489
