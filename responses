@@ -58,3 +58,9 @@ Names: Michael Barnett, Denison Marsland-Rello, Miriam De La Riva Ovalle
 Description: Eliminate the conv layers, leaving an ordinary NN with 1024 hidden units
 Did not reach a validation accuracy of 0.4 after 1000 epochs.
 Validation accuracy after epoch 100: 0.29105821
+
+Names: Ehsan Mojahedi, Jack Muller, Olivia Pinney
+Description: Add a second fully connected layer but make the size of both 128.
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
