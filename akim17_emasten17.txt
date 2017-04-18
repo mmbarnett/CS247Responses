@@ -1,4 +1,4 @@
-Number of epochs to reach a validation accuracy of 0.4: Epoch 6
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.64112824
 
 ('names', ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'])
