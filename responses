@@ -6,6 +6,21 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.645
 Add your names (all your names), a brief description of the
 modification you made (what's on the assignment is fine) and the summary results:
 
+Names: Nirman Dave, Mei Zhou, Alina Dao
+
+Description: run two different learning rates, one larger and one smaller
+
+Summary of Results:
+
+Learning Rate = 0.01
+Number of epochs to reach a validation accuracy of 0.4: Epoch 7
+Validation accuracy after 100 epochs (batch_size = 100): 0.655531
+
+Learning Rate = 0.3
+Number of epochs to reach a validation accuracy of 0.4: Epoch 5
+Validation accuracy after 100 epochs (batch_size = 100): 0.492098
+
+
 Names: Mahesh Dhulipala, Ian McClaugherty, Bishesh Yadav
 
 Description: Remove Dropout
