@@ -48,3 +48,7 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 2
 Validation accuracy after 100 epochs (batch_size = 100): 0.643529
 
+Names: Zeina Amhaz, Patrick Liu
+Description: Change the number of features in the second conv layer to 16
+Number of epochs to reach a validation accuracy of 0.4: 3
+Validation accuracy after 100 epochs (batch_size=100): 0.60932189
