@@ -52,3 +52,8 @@ Names: Zeina Amhaz, Patrick Liu
 Description: Change the number of features in the second conv layer to 16
 Number of epochs to reach a validation accuracy of 0.4: 3
 Validation accuracy after 100 epochs (batch_size=100): 0.60932189
+
+Names: Michael Barnett, Denison Marsland-Rello, Miriam De La Riva Ovalle
+Description: Eliminate the conv layers, leaving an ordinary NN with 1024 hidden units
+Did not reach a validation accuracy of 0.4 after 1000 epochs.
+Validation accuracy after epoch 100: 0.29105821
