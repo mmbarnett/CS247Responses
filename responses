@@ -6,6 +6,12 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.645
 Add your names (all your names), a brief description of the
 modification you made (what's on the assignment is fine) and the summary results:
 
+Names: Dorit Song, Harrison Marick, Megan Root
+Description: 7x7 Convolutions
+
+Number of epochs to reach a validation accuracy of 0.4: 11
+Validation accuracy after 100 epochs (batch_size = 100): 0.575515
+
 Names: Mahesh Dhulipala, Ian McClaugherty, Bishesh Yadav
 
 Description: Remove Dropout
