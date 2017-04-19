@@ -36,6 +36,15 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
 
+Names: Nicholas Lafky, Connor Haley, Phong Hoang
+Description: Use momentum optimization with a momentum of 0.5
+**Note: we were supposed to use a momentum of 0.9 but neither the validation
+accuracy or the test accuracy were changing at all. Thus we opted for a 
+momentum of .5.
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 12
+Validation accuracy after 100 epochs (batch_size = 100): 0.611322
+
 Names: Andrew Kim, Emily Masten
 Description: Change the number of features in the first convolution layer to 64.
 Summary Results:
@@ -97,4 +106,3 @@ Description: Use Adam Optimizer
 Summary Results:
 - Number of epochs to reach validation accuracy of 0.4 (with learning rate 0.00001) = Epoch 20
 - Validation accuracy after 100 epochs and 100 batch size = 57111424
-
