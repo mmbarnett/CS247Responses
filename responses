@@ -18,6 +18,18 @@ Number of epochs to reach a validation accuracy of 0.4: Epoch 5
 Validation accuracy after 100 epochs (batch_size = 100): 0.492098
 
 
+E. Names: Saharsha Karki, Evelyn Ting, Zach Bessette
+Description: Change the size of the fully connected hidden layer to 256
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 2
+Validation accuracy after 100 epochs (batch_size = 100): 0.643529
+
+F. Names: Ella Yarmo-Gray, Lehua Matsumoto, Sarah Teichman
+Description: Changed the size of the fully connected hidden layer to 2048
+Summary results:
+- It took 4 epochs to reach validation accuracy of 0.4
+- Validation accuracy after 100 epochs with 100 batch size = 0.58191639
+
 G. Names: Mahesh Dhulipala, Ian McClaugherty, Bishesh Yadav
 Description: Remove Dropout
 Summary Results:
@@ -29,12 +41,7 @@ Description: Change the keep percentage to 0.75
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Never
 Validation accuracy after 100 epochs (batch_size = 100): 0.10482097
-
-M. Names: Daniel Mariselli, Alex Chou, Carina Corbin
-Description: Change the number of features in the first convolution layer to 8.
-Summary Results:
-Number of epochs to reach a validation accuracy of 0.4: Epoch 3
-Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
+(Stuck)
 
 J. Names: Nicholas Lafky, Connor Haley, Phong Hoang
 Description: Use momentum optimization with a momentum of 0.5
@@ -48,6 +55,19 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 12
 Validation accuracy after 100 epochs (batch_size = 100): 0.611322
 
+K. Names: Mahima Ghale, Alex Watson, Allison Lee
+Description: Use Adam Optimizer
+Summary Results:
+- Number of epochs to reach validation accuracy of 0.4 (with learning rate 0.00001) = Epoch 20
+- Validation accuracy after 100 epochs and 100 batch size = 57111424
+
+M. Names: Daniel Mariselli, Alex Chou, Carina Corbin
+Description: Change the number of features in the first convolution layer to 8.
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
+
+
 N. Names: Andrew Kim, Emily Masten
 Description: Change the number of features in the first convolution layer to 64.
 Summary Results:
@@ -60,18 +80,7 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.64112824
 
-V. Names: Evan Wolf, Brendan Routh, Gab Gonclaves
-Description: add a second fully connected layer of size 1024.
-Summary Results:
-- Took 11 epochs to get a validation accuracy of 0.4
-- Validation accuracy after epoch 100: 0.593619 (batch size = 100)
 
-
-E. Names: Saharsha Karki, Evelyn Ting, Zach Bessette
-Description: Change the size of the fully connected hidden layer to 256
-Summary Results:
-Number of epochs to reach a validation accuracy of 0.4: Epoch 2
-Validation accuracy after 100 epochs (batch_size = 100): 0.643529
 
 P. Names: Zeina Amhaz, Patrick Liu
 Description: Change the number of features in the second conv layer to 16
@@ -79,23 +88,10 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: 3
 Validation accuracy after 100 epochs (batch_size=100): 0.60932189
 
-Y. Names: Michael Barnett, Denison Marsland-Rello, Miriam De La Riva Ovalle
-Description: Eliminate the conv layers, leaving an ordinary NN with 1024 hidden units
-Did not reach a validation accuracy of 0.4 after 1000 epochs.
-Validation accuracy after epoch 100: 0.29105821
+Q: Change the size of the convolutions to 3x3
 
-U. Names: Oluwatobi Oni-Orisan, Amal Buford, Mohammed Ibrahim
-Description: Add another conv/relu/maxpool layer while maintaining the
-    fully connected layer at 6x6
-Summary Results:
-    Number of epochs to reach a validation accuracy of 0.4: Epoch 5
-    Validation accuracy after 100 epochs (batch_size = 100): 0.6365273
-
-X. Names: Ehsan Mojahedi, Jack Muller, Olivia Pinney
-Description: Add a second fully connected layer but make the size of both 128.
-Summary Results:
-Number of epochs to reach a validation accuracy of 0.4: Epoch 3
-Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
+Number of epochs to reach a validation accuracy of 0.4: Epoch 4
+Validation accuracy after 100 epochs (batch_size = 100): 0.647129
 
 
 T. Names: Tiffany Kha, Jordan Browning, Azka Javaid
@@ -104,27 +100,32 @@ Summary results:
 - took 8 epochs to get to a validation accuracy of .4
 validation accuracy after 100 epochs w/ batch size 100 = .56631327
 
-K. Names: Mahima Ghale, Alex Watson, Allison Lee
-Description: Use Adam Optimizer
+
+U. Names: Oluwatobi Oni-Orisan, Amal Buford, Mohammed Ibrahim
+Description: Add another conv/relu/maxpool layer while maintaining the
+    fully connected layer at 6x6
 Summary Results:
-- Number of epochs to reach validation accuracy of 0.4 (with learning rate 0.00001) = Epoch 20
-- Validation accuracy after 100 epochs and 100 batch size = 57111424
+    Number of epochs to reach a validation accuracy of 0.4: Epoch 5
+    Validation accuracy after 100 epochs (batch_size = 100): 0.6365273
 
+V. Names: Evan Wolf, Brendan Routh, Gab Gonclaves
+Description: add a second fully connected layer of size 1024.
+Summary Results:
+- Took 11 epochs to get a validation accuracy of 0.4
+- Validation accuracy after epoch 100: 0.593619 (batch size = 100)
 
-F. Names: Ella Yarmo-Gray, Lehua Matsumoto, Sarah Teichman
-Description: Changed the size of the fully connected hidden layer to 2048
-Summary results:
-- It took 4 epochs to reach validation accuracy of 0.4
-- Validation accuracy after 100 epochs with 100 batch size = 0.58191639
-
-M.
-chnage the number of features in the first conv layer to 8
-
+X. Names: Ehsan Mojahedi, Jack Muller, Olivia Pinney
+Description: Add a second fully connected layer but make the size of both 128.
+Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
-Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
+Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
 
-Q: Change the size of the convolutions to 3x3
 
-Number of epochs to reach a validation accuracy of 0.4: Epoch 4
-Validation accuracy after 100 epochs (batch_size = 100): 0.647129
+Y. Names: Michael Barnett, Denison Marsland-Rello, Miriam De La Riva Ovalle
+Description: Eliminate the conv layers, leaving an ordinary NN with 1024 hidden units
+Did not reach a validation accuracy of 0.4 after 1000 epochs.
+Validation accuracy after epoch 100: 0.29105821
+
+
+
 
