@@ -85,8 +85,16 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
 
+
 Names: Tiffany Kha, Jordan Browning, Azka Javaid
 Description: add another conv/relu/maxpool layer so that the input to the fully connected layer is 3x3. 
 Summary results: 
 - took 8 epochs to get to a validation accuracy of .4
 validation accuracy after 100 epochs w/ batch size 100 = .56631327
+
+Names: Mahima Ghale, Alex Watson, Allison Lee
+Description: Use Adam Optimizer
+Summary Results:
+- Number of epochs to reach validation accuracy of 0.4 (with learning rate 0.00001) = Epoch 20
+- Validation accuracy after 100 epochs and 100 batch size = 57111424
+
