@@ -106,3 +106,9 @@ Description: Use Adam Optimizer
 Summary Results:
 - Number of epochs to reach validation accuracy of 0.4 (with learning rate 0.00001) = Epoch 20
 - Validation accuracy after 100 epochs and 100 batch size = 57111424
+
+Names: Ella Yarmo-Gray, Lehua Matsumoto, Sarah Teichman
+Description: Changed the size of the fully connected hidden layer to 2048
+Summary results:
+- It took 4 epochs to reach validation accuracy of 0.4
+- Validation accuracy after 100 epochs with 100 batch size = 0.58191639
