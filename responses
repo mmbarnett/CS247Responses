@@ -24,6 +24,11 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 6
 Validation accuracy after 100 epochs (batch_size = 100): 0.50790161
 
+Names: Sean Fitzgerald, Reynaldo Pena, Juan Guaracao
+Description: Change the keep percentage to 0.75
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Never
+Validation accuracy after 100 epochs (batch_size = 100): 0.10482097
 
 Names: Daniel Mariselli, Alex Chou, Carina Corbin
 Description: Change the number of features in the first convolution layer to 8.
