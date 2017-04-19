@@ -1,0 +1,8 @@
+GROUP K- Use Adam Optimizer.
+Members: Alex Watson, Allison Lee, Mahima Ghale
+
+Initial learning_rate = 0.1, validation 0.4 never reached.
+
+Changed learning_rate = 0.00001, validation 0.4 reached after epoch 20.
+Validation after 10,000 batch(100) X epoch size(100) = 0.57111424
+
