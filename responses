@@ -43,6 +43,8 @@ Number of epochs to reach a validation accuracy of 0.4: Never
 Validation accuracy after 100 epochs (batch_size = 100): 0.10482097
 (Stuck)
 
+With different params 3 epochs,  validation .57 after 9
+
 J. Names: Nicholas Lafky, Connor Haley, Phong Hoang
 Description: Use momentum optimization with a momentum of 0.5
 
