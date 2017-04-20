@@ -5,12 +5,7 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.645
 
 Add your names (all your names), a brief description of the
 modification you made (what's on the assignment is fine) and the summary results:
-////////////////////////////////////////////////////////
-Group D: Ian Nanez, Obi Daniel, Hutomo Limanto
-We changed the size of the fully connected hidden layer to 512.
-It took us 2 epochs to reach a validation accuracy > 0.4. 
-After 10000 epochs * batch size, our validation accuracy is 0.641.
-/////////////////////////////////////////////////////////
+
 
 A. Names: Nirman Dave, Mei Zhou, Alina Dao
 Description: run two different learning rates, one larger and one smaller
@@ -22,6 +17,12 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.655531
 Learning Rate = 0.3
 Number of epochs to reach a validation accuracy of 0.4: Epoch 5
 Validation accuracy after 100 epochs (batch_size = 100): 0.492098
+
+
+D: Ian Nanez, Obi Daniel, Hutomo Limanto
+We changed the size of the fully connected hidden layer to 512.
+It took us 2 epochs to reach a validation accuracy > 0.4. 
+After 10000 epochs * batch size, our validation accuracy is 0.641.
 
 
 E. Names: Saharsha Karki, Evelyn Ting, Zach Bessette
