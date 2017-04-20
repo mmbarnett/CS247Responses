@@ -71,6 +71,12 @@ Summary Results:
 - Number of epochs to reach validation accuracy of 0.4 (with learning rate 0.00001) = Epoch 20
 - Validation accuracy after 100 epochs and 100 batch size = 57111424
 
+L. Names: Jeff Ewing, Sam Procter, Jake Meyer
+Description: Change the number of features of the first conv layer to 16
+Summary of Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 2
+Validation accuracy after 100 epochs (batch_size = 100): 0.57431489
+
 M. Names: Daniel Mariselli, Alex Chou, Carina Corbin
 Description: Change the number of features in the first convolution layer to 8.
 Summary Results:
@@ -142,10 +148,12 @@ Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
 
 
+
 Y. Names: Michael Barnett, Denison Marsland-Rello, Miriam De La Riva Ovalle
 Description: Eliminate the conv layers, leaving an ordinary NN with 1024 hidden units
 Did not reach a validation accuracy of 0.4 after 1000 epochs.
 Validation accuracy after epoch 100: 0.29105821
+
 
 
 
