@@ -1,0 +1,978 @@
+Trial 1: with random seed set
+
+to reach validation of .4: 5 epochs
+validation after 10000 epochs*batch: 0.634927
+
+names ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+(50000, 3072) (50000,)
+Epoch: 1 cost = 2.21179510423
+Validation Accuracy: 0.254851
+Test Accuracy: 0.24875
+Epoch: 2 cost = 2.00317095178
+Validation Accuracy: 0.29946
+Test Accuracy: 0.30176
+Epoch: 3 cost = 1.89088562352
+Validation Accuracy: 0.338868
+Test Accuracy: 0.340668
+Epoch: 4 cost = 1.76905516148
+Validation Accuracy: 0.356671
+Test Accuracy: 0.360772
+Epoch: 5 cost = 1.54281671354
+Validation Accuracy: 0.44829
+Test Accuracy: 0.45209
+Epoch: 6 cost = 1.34152345487
+Validation Accuracy: 0.473895
+Test Accuracy: 0.475495
+Epoch: 7 cost = 1.22685959067
+Validation Accuracy: 0.5023
+Test Accuracy: 0.513103
+Epoch: 8 cost = 1.14089989679
+Validation Accuracy: 0.4993
+Test Accuracy: 0.508202
+Epoch: 9 cost = 1.07078985623
+Validation Accuracy: 0.518104
+Test Accuracy: 0.526505
+Epoch: 10 cost = 1.0062074101
+Validation Accuracy: 0.496099
+Test Accuracy: 0.503101
+Epoch: 11 cost = 0.947537297521
+Validation Accuracy: 0.524905
+Test Accuracy: 0.526005
+Epoch: 12 cost = 0.903426295859
+Validation Accuracy: 0.531506
+Test Accuracy: 0.535607
+Epoch: 13 cost = 0.863757465737
+Validation Accuracy: 0.523505
+Test Accuracy: 0.525405
+Epoch: 14 cost = 0.822048043779
+Validation Accuracy: 0.540508
+Test Accuracy: 0.540208
+Epoch: 15 cost = 0.795541379111
+Validation Accuracy: 0.534507
+Test Accuracy: 0.543809
+Epoch: 16 cost = 0.773223535589
+Validation Accuracy: 0.526105
+Test Accuracy: 0.529806
+Epoch: 17 cost = 0.747933030639
+Validation Accuracy: 0.535707
+Test Accuracy: 0.540008
+Epoch: 18 cost = 0.732370901789
+Validation Accuracy: 0.538108
+Test Accuracy: 0.545609
+Epoch: 19 cost = 0.715392425486
+Validation Accuracy: 0.536107
+Test Accuracy: 0.542809
+Epoch: 20 cost = 0.698079607231
+Validation Accuracy: 0.531506
+Test Accuracy: 0.539808
+Epoch: 21 cost = 0.681881063836
+Validation Accuracy: 0.531506
+Test Accuracy: 0.539708
+Epoch: 22 cost = 0.583130607435
+Validation Accuracy: 0.591918
+Test Accuracy: 0.60182
+Epoch: 23 cost = 0.490695831946
+Validation Accuracy: 0.604921
+Test Accuracy: 0.611622
+Epoch: 24 cost = 0.472774934641
+Validation Accuracy: 0.596519
+Test Accuracy: 0.608622
+Epoch: 25 cost = 0.456396207852
+Validation Accuracy: 0.596519
+Test Accuracy: 0.605121
+Epoch: 26 cost = 0.444122435408
+Validation Accuracy: 0.60072
+Test Accuracy: 0.610122
+Epoch: 27 cost = 0.42790112091
+Validation Accuracy: 0.605921
+Test Accuracy: 0.608322
+Epoch: 28 cost = 0.423398604989
+Validation Accuracy: 0.60012
+Test Accuracy: 0.609122
+Epoch: 29 cost = 0.414699657815
+Validation Accuracy: 0.59752
+Test Accuracy: 0.611022
+Epoch: 30 cost = 0.405160106037
+Validation Accuracy: 0.614323
+Test Accuracy: 0.611322
+Epoch: 31 cost = 0.399432771845
+Validation Accuracy: 0.611922
+Test Accuracy: 0.610422
+Epoch: 32 cost = 0.391176272758
+Validation Accuracy: 0.606721
+Test Accuracy: 0.614623
+Epoch: 33 cost = 0.389144342967
+Validation Accuracy: 0.606521
+Test Accuracy: 0.608122
+Epoch: 34 cost = 0.377510879636
+Validation Accuracy: 0.605521
+Test Accuracy: 0.614823
+Epoch: 35 cost = 0.374459211188
+Validation Accuracy: 0.608922
+Test Accuracy: 0.610722
+Epoch: 36 cost = 0.369616944215
+Validation Accuracy: 0.602921
+Test Accuracy: 0.611522
+Epoch: 37 cost = 0.36910225766
+Validation Accuracy: 0.60212
+Test Accuracy: 0.607221
+Epoch: 38 cost = 0.363277141154
+Validation Accuracy: 0.608122
+Test Accuracy: 0.611322
+Epoch: 39 cost = 0.361242764635
+Validation Accuracy: 0.60012
+Test Accuracy: 0.606521
+Epoch: 40 cost = 0.35598250785
+Validation Accuracy: 0.60112
+Test Accuracy: 0.59992
+Epoch: 41 cost = 0.348084182037
+Validation Accuracy: 0.605321
+Test Accuracy: 0.613423
+Epoch: 42 cost = 0.248019865581
+Validation Accuracy: 0.608922
+Test Accuracy: 0.621624
+Epoch: 43 cost = 0.167240585813
+Validation Accuracy: 0.628926
+Test Accuracy: 0.637428
+Epoch: 44 cost = 0.157845345054
+Validation Accuracy: 0.627926
+Test Accuracy: 0.639328
+Epoch: 45 cost = 0.151049777695
+Validation Accuracy: 0.631326
+Test Accuracy: 0.639128
+Epoch: 46 cost = 0.143646037871
+Validation Accuracy: 0.617924
+Test Accuracy: 0.638728
+Epoch: 47 cost = 0.134722595452
+Validation Accuracy: 0.629926
+Test Accuracy: 0.643029
+Epoch: 48 cost = 0.130135374362
+Validation Accuracy: 0.622925
+Test Accuracy: 0.629126
+Epoch: 49 cost = 0.129271892698
+Validation Accuracy: 0.634127
+Test Accuracy: 0.646029
+Epoch: 50 cost = 0.122084214602
+Validation Accuracy: 0.630326
+Test Accuracy: 0.640228
+Epoch: 51 cost = 0.117885144034
+Validation Accuracy: 0.633727
+Test Accuracy: 0.642829
+Epoch: 52 cost = 0.111351767393
+Validation Accuracy: 0.635327
+Test Accuracy: 0.637027
+Epoch: 53 cost = 0.113219087605
+Validation Accuracy: 0.629926
+Test Accuracy: 0.641728
+Epoch: 54 cost = 0.109131887306
+Validation Accuracy: 0.635127
+Test Accuracy: 0.637428
+Epoch: 55 cost = 0.103374536461
+Validation Accuracy: 0.636927
+Test Accuracy: 0.642028
+Epoch: 56 cost = 0.103799617115
+Validation Accuracy: 0.639128
+Test Accuracy: 0.640628
+Epoch: 57 cost = 0.0956308675504
+Validation Accuracy: 0.629926
+Test Accuracy: 0.644029
+Epoch: 58 cost = 0.0941648678748
+Validation Accuracy: 0.633527
+Test Accuracy: 0.646129
+Epoch: 59 cost = 0.0916495852226
+Validation Accuracy: 0.637928
+Test Accuracy: 0.643129
+Epoch: 60 cost = 0.087705631908
+Validation Accuracy: 0.632527
+Test Accuracy: 0.64863
+Epoch: 61 cost = 0.0915626427292
+Validation Accuracy: 0.626725
+Test Accuracy: 0.642228
+Epoch: 62 cost = 0.0871102009647
+Validation Accuracy: 0.635127
+Test Accuracy: 0.64833
+Epoch: 63 cost = 0.0867896215711
+Validation Accuracy: 0.625325
+Test Accuracy: 0.640628
+Epoch: 64 cost = 0.0814025469444
+Validation Accuracy: 0.629326
+Test Accuracy: 0.643629
+Epoch: 65 cost = 0.0831464383059
+Validation Accuracy: 0.632527
+Test Accuracy: 0.647529
+Epoch: 66 cost = 0.0834634712618
+Validation Accuracy: 0.624925
+Test Accuracy: 0.630726
+Epoch: 67 cost = 0.0829150425663
+Validation Accuracy: 0.632727
+Test Accuracy: 0.642128
+Epoch: 68 cost = 0.0837550705591
+Validation Accuracy: 0.630326
+Test Accuracy: 0.643129
+Epoch: 69 cost = 0.0855148399688
+Validation Accuracy: 0.628326
+Test Accuracy: 0.647429
+Epoch: 70 cost = 0.0814721176175
+Validation Accuracy: 0.623925
+Test Accuracy: 0.644829
+Epoch: 71 cost = 0.0780086889071
+Validation Accuracy: 0.635927
+Test Accuracy: 0.644629
+Epoch: 72 cost = 0.0752977646116
+Validation Accuracy: 0.640728
+Test Accuracy: 0.65153
+Epoch: 73 cost = 0.0752122273136
+Validation Accuracy: 0.636127
+Test Accuracy: 0.640428
+Epoch: 74 cost = 0.071952086123
+Validation Accuracy: 0.637327
+Test Accuracy: 0.644729
+Epoch: 75 cost = 0.0730040204951
+Validation Accuracy: 0.638928
+Test Accuracy: 0.64953
+Epoch: 76 cost = 0.0735798244671
+Validation Accuracy: 0.635327
+Test Accuracy: 0.642629
+Epoch: 77 cost = 0.0707397937269
+Validation Accuracy: 0.632326
+Test Accuracy: 0.645129
+Epoch: 78 cost = 0.0695564681125
+Validation Accuracy: 0.642729
+Test Accuracy: 0.646929
+Epoch: 79 cost = 0.067567030562
+Validation Accuracy: 0.635727
+Test Accuracy: 0.65063
+Epoch: 80 cost = 0.0700377203807
+Validation Accuracy: 0.635727
+Test Accuracy: 0.645229
+Epoch: 81 cost = 0.0704793398628
+Validation Accuracy: 0.638328
+Test Accuracy: 0.65073
+Epoch: 82 cost = 0.0662846112112
+Validation Accuracy: 0.634327
+Test Accuracy: 0.64913
+Epoch: 83 cost = 0.0703704631907
+Validation Accuracy: 0.633927
+Test Accuracy: 0.64863
+Epoch: 84 cost = 0.0661040339433
+Validation Accuracy: 0.631926
+Test Accuracy: 0.64953
+Epoch: 85 cost = 0.0620509754693
+Validation Accuracy: 0.633727
+Test Accuracy: 0.65223
+Epoch: 86 cost = 0.0653369480371
+Validation Accuracy: 0.622524
+Test Accuracy: 0.640328
+Epoch: 87 cost = 0.0658661800397
+Validation Accuracy: 0.634727
+Test Accuracy: 0.64823
+Epoch: 88 cost = 0.0655564267228
+Validation Accuracy: 0.632927
+Test Accuracy: 0.64923
+Epoch: 89 cost = 0.0659893335296
+Validation Accuracy: 0.629126
+Test Accuracy: 0.640028
+Epoch: 90 cost = 0.0622876425008
+Validation Accuracy: 0.631126
+Test Accuracy: 0.640528
+Epoch: 91 cost = 0.0599349437235
+Validation Accuracy: 0.634527
+Test Accuracy: 0.647429
+Epoch: 92 cost = 0.06008008559
+Validation Accuracy: 0.639128
+Test Accuracy: 0.645329
+Epoch: 93 cost = 0.057748635221
+Validation Accuracy: 0.627526
+Test Accuracy: 0.643729
+Epoch: 94 cost = 0.0653214465191
+Validation Accuracy: 0.626925
+Test Accuracy: 0.64783
+Epoch: 95 cost = 0.0649914484268
+Validation Accuracy: 0.628926
+Test Accuracy: 0.640428
+Epoch: 96 cost = 0.058730316828
+Validation Accuracy: 0.638328
+Test Accuracy: 0.64913
+Epoch: 97 cost = 0.0587569756104
+Validation Accuracy: 0.631926
+Test Accuracy: 0.644129
+Epoch: 98 cost = 0.062979242184
+Validation Accuracy: 0.634527
+Test Accuracy: 0.644629
+Epoch: 99 cost = 0.0596484040595
+Validation Accuracy: 0.633127
+Test Accuracy: 0.643429
+Epoch: 100 cost = 0.0535291241775
+Validation Accuracy: 0.634927
+Test Accuracy: 0.645829
+Epoch: 101 cost = 0.0575882095854
+Validation Accuracy: 0.633927
+Test Accuracy: 0.647529
+Epoch: 102 cost = 0.0573645445029
+Validation Accuracy: 0.630126
+Test Accuracy: 0.646929
+Epoch: 103 cost = 0.0517633950657
+Validation Accuracy: 0.636127
+Test Accuracy: 0.65093
+Epoch: 104 cost = 0.0503638374676
+Validation Accuracy: 0.631526
+Test Accuracy: 0.640428
+Epoch: 105 cost = 0.0496498787446
+Validation Accuracy: 0.633327
+Test Accuracy: 0.653031
+Epoch: 106 cost = 0.0524773957148
+Validation Accuracy: 0.635527
+Test Accuracy: 0.644229
+Epoch: 107 cost = 0.0564848166298
+Validation Accuracy: 0.633527
+Test Accuracy: 0.646429
+Epoch: 108 cost = 0.0557266717966
+Validation Accuracy: 0.634727
+Test Accuracy: 0.64903
+Epoch: 109 cost = 0.0511019142064
+Validation Accuracy: 0.640728
+Test Accuracy: 0.646529
+Epoch: 110 cost = 0.0529319892288
+Validation Accuracy: 0.634127
+Test Accuracy: 0.64803
+Epoch: 111 cost = 0.0524769461707
+Validation Accuracy: 0.637928
+Test Accuracy: 0.646129
+Epoch: 112 cost = 0.0509024492854
+Validation Accuracy: 0.629526
+Test Accuracy: 0.638928
+Epoch: 113 cost = 0.0533788183864
+Validation Accuracy: 0.635927
+Test Accuracy: 0.645729
+Epoch: 114 cost = 0.051976639812
+Validation Accuracy: 0.643929
+Test Accuracy: 0.65163
+Epoch: 115 cost = 0.0524391653036
+Validation Accuracy: 0.632727
+Test Accuracy: 0.641328
+Epoch: 116 cost = 0.0514139233513
+Validation Accuracy: 0.632527
+Test Accuracy: 0.64783
+Epoch: 117 cost = 0.0498908508042
+Validation Accuracy: 0.635327
+Test Accuracy: 0.641428
+Epoch: 118 cost = 0.0494562761733
+Validation Accuracy: 0.634527
+Test Accuracy: 0.646629
+Epoch: 119 cost = 0.0481627639426
+Validation Accuracy: 0.632126
+Test Accuracy: 0.645029
+Epoch: 120 cost = 0.0509518433239
+Validation Accuracy: 0.630526
+Test Accuracy: 0.647029
+Epoch: 121 cost = 0.0520098827781
+Validation Accuracy: 0.636127
+Test Accuracy: 0.642128
+Epoch: 122 cost = 0.0518179758269
+Validation Accuracy: 0.632727
+Test Accuracy: 0.647129
+Epoch: 123 cost = 0.0481193445317
+Validation Accuracy: 0.628926
+Test Accuracy: 0.643829
+Epoch: 124 cost = 0.0516080802287
+Validation Accuracy: 0.629726
+Test Accuracy: 0.643729
+Epoch: 125 cost = 0.0488703772204
+Validation Accuracy: 0.634927
+Test Accuracy: 0.64893
+Epoch: 126 cost = 0.0460025930331
+Validation Accuracy: 0.634727
+Test Accuracy: 0.64923
+Epoch: 127 cost = 0.0462822959882
+Validation Accuracy: 0.638328
+Test Accuracy: 0.646629
+Epoch: 128 cost = 0.0459537839477
+Validation Accuracy: 0.635727
+Test Accuracy: 0.645929
+Epoch: 129 cost = 0.0492557963348
+Validation Accuracy: 0.636727
+Test Accuracy: 0.65043
+Epoch: 130 cost = 0.0471195935717
+Validation Accuracy: 0.639328
+Test Accuracy: 0.65193
+Epoch: 131 cost = 0.0413498139045
+Validation Accuracy: 0.638528
+Test Accuracy: 0.64883
+Epoch: 132 cost = 0.0467117494507
+Validation Accuracy: 0.632527
+Test Accuracy: 0.64933
+Epoch: 133 cost = 0.0438028273798
+Validation Accuracy: 0.641328
+Test Accuracy: 0.64793
+Epoch: 134 cost = 0.0455457893317
+Validation Accuracy: 0.637728
+Test Accuracy: 0.646429
+Epoch: 135 cost = 0.0436457582385
+Validation Accuracy: 0.645729
+Test Accuracy: 0.653731
+Epoch: 136 cost = 0.0460090786915
+Validation Accuracy: 0.643529
+Test Accuracy: 0.647629
+Epoch: 137 cost = 0.042008536292
+Validation Accuracy: 0.644929
+Test Accuracy: 0.64783
+Epoch: 138 cost = 0.0458150730402
+Validation Accuracy: 0.640928
+Test Accuracy: 0.646729
+Epoch: 139 cost = 0.0425908858809
+Validation Accuracy: 0.640328
+Test Accuracy: 0.65203
+Epoch: 140 cost = 0.0426705586078
+Validation Accuracy: 0.636527
+Test Accuracy: 0.645329
+Epoch: 141 cost = 0.0436221474506
+Validation Accuracy: 0.643329
+Test Accuracy: 0.645729
+Epoch: 142 cost = 0.0451326953421
+Validation Accuracy: 0.637928
+Test Accuracy: 0.645329
+Epoch: 143 cost = 0.0452679761474
+Validation Accuracy: 0.636927
+Test Accuracy: 0.644029
+Epoch: 144 cost = 0.0441128417495
+Validation Accuracy: 0.639728
+Test Accuracy: 0.64983
+Epoch: 145 cost = 0.042761292109
+Validation Accuracy: 0.635327
+Test Accuracy: 0.643429
+Epoch: 146 cost = 0.04277945679
+Validation Accuracy: 0.636927
+Test Accuracy: 0.64833
+Epoch: 147 cost = 0.0422358225399
+Validation Accuracy: 0.634527
+Test Accuracy: 0.645229
+Epoch: 148 cost = 0.0442731823376
+Validation Accuracy: 0.629326
+Test Accuracy: 0.644529
+Epoch: 149 cost = 0.0437476958755
+Validation Accuracy: 0.639328
+Test Accuracy: 0.644629
+Epoch: 150 cost = 0.042375051864
+Validation Accuracy: 0.631526
+Test Accuracy: 0.645829
+Epoch: 151 cost = 0.0407669757733
+Validation Accuracy: 0.635527
+Test Accuracy: 0.65073
+Epoch: 152 cost = 0.0417015534774
+Validation Accuracy: 0.630726
+Test Accuracy: 0.647229
+Epoch: 153 cost = 0.0410377063695
+Validation Accuracy: 0.625325
+Test Accuracy: 0.642028
+Epoch: 154 cost = 0.0413111332914
+Validation Accuracy: 0.629326
+Test Accuracy: 0.646729
+Epoch: 155 cost = 0.044240521271
+Validation Accuracy: 0.625325
+Test Accuracy: 0.647329
+Epoch: 156 cost = 0.0426446352836
+Validation Accuracy: 0.634327
+Test Accuracy: 0.647129
+Epoch: 157 cost = 0.043728223149
+Validation Accuracy: 0.638328
+Test Accuracy: 0.64803
+Epoch: 158 cost = 0.0410764895045
+Validation Accuracy: 0.638928
+Test Accuracy: 0.646229
+Epoch: 159 cost = 0.043011276578
+Validation Accuracy: 0.638128
+Test Accuracy: 0.64893
+Epoch: 160 cost = 0.0405171232036
+Validation Accuracy: 0.635127
+Test Accuracy: 0.647029
+Epoch: 161 cost = 0.0387528023235
+Validation Accuracy: 0.635727
+Test Accuracy: 0.646529
+Epoch: 162 cost = 0.0417631851162
+Validation Accuracy: 0.637327
+Test Accuracy: 0.65043
+Epoch: 163 cost = 0.0387923865987
+Validation Accuracy: 0.630326
+Test Accuracy: 0.642729
+Epoch: 164 cost = 0.0430163132952
+Validation Accuracy: 0.631326
+Test Accuracy: 0.643029
+Epoch: 165 cost = 0.0403031943032
+Validation Accuracy: 0.627726
+Test Accuracy: 0.638428
+Epoch: 166 cost = 0.04125708906
+Validation Accuracy: 0.636527
+Test Accuracy: 0.643329
+Epoch: 167 cost = 0.0379887199902
+Validation Accuracy: 0.631726
+Test Accuracy: 0.645229
+Epoch: 168 cost = 0.0402991155459
+Validation Accuracy: 0.635127
+Test Accuracy: 0.644929
+Epoch: 169 cost = 0.0392218267331
+Validation Accuracy: 0.637327
+Test Accuracy: 0.647429
+Epoch: 170 cost = 0.038400147119
+Validation Accuracy: 0.632727
+Test Accuracy: 0.641728
+Epoch: 171 cost = 0.0395431584648
+Validation Accuracy: 0.631526
+Test Accuracy: 0.643529
+Epoch: 172 cost = 0.0430140771656
+Validation Accuracy: 0.633527
+Test Accuracy: 0.647029
+Epoch: 173 cost = 0.0399817739843
+Validation Accuracy: 0.637127
+Test Accuracy: 0.647129
+Epoch: 174 cost = 0.0406385579128
+Validation Accuracy: 0.635127
+Test Accuracy: 0.646529
+Epoch: 175 cost = 0.0362851693109
+Validation Accuracy: 0.632527
+Test Accuracy: 0.64873
+Epoch: 176 cost = 0.0392691324475
+Validation Accuracy: 0.636127
+Test Accuracy: 0.65243
+Epoch: 177 cost = 0.0363864843585
+Validation Accuracy: 0.634927
+Test Accuracy: 0.65063
+Epoch: 178 cost = 0.0384768084562
+Validation Accuracy: 0.635727
+Test Accuracy: 0.65233
+Epoch: 179 cost = 0.0376645986457
+Validation Accuracy: 0.643129
+Test Accuracy: 0.65203
+Epoch: 180 cost = 0.0361131525358
+Validation Accuracy: 0.637728
+Test Accuracy: 0.647529
+Epoch: 181 cost = 0.0357168363948
+Validation Accuracy: 0.635327
+Test Accuracy: 0.645629
+Epoch: 182 cost = 0.0333569682833
+Validation Accuracy: 0.632727
+Test Accuracy: 0.644529
+Epoch: 183 cost = 0.0365806201554
+Validation Accuracy: 0.638928
+Test Accuracy: 0.64783
+Epoch: 184 cost = 0.0395697850912
+Validation Accuracy: 0.630126
+Test Accuracy: 0.641628
+Epoch: 185 cost = 0.0407281187135
+Validation Accuracy: 0.632326
+Test Accuracy: 0.643529
+Epoch: 186 cost = 0.0395512749343
+Validation Accuracy: 0.622925
+Test Accuracy: 0.637628
+Epoch: 187 cost = 0.0386582221739
+Validation Accuracy: 0.634727
+Test Accuracy: 0.645729
+Epoch: 188 cost = 0.0408310206486
+Validation Accuracy: 0.633927
+Test Accuracy: 0.642228
+Epoch: 189 cost = 0.0381883648201
+Validation Accuracy: 0.633327
+Test Accuracy: 0.642328
+Epoch: 190 cost = 0.0394286687174
+Validation Accuracy: 0.638328
+Test Accuracy: 0.646329
+Epoch: 191 cost = 0.0384407556255
+Validation Accuracy: 0.638728
+Test Accuracy: 0.64983
+Epoch: 192 cost = 0.0371100021038
+Validation Accuracy: 0.644329
+Test Accuracy: 0.645629
+Epoch: 193 cost = 0.0345051219995
+Validation Accuracy: 0.637728
+Test Accuracy: 0.646029
+Epoch: 194 cost = 0.0409472944327
+Validation Accuracy: 0.640928
+Test Accuracy: 0.646529
+Epoch: 195 cost = 0.0377382013533
+Validation Accuracy: 0.644329
+Test Accuracy: 0.644529
+
+
+Trial 2 - stuck
+
+to reach validation of .4: never happened, got stuck
+validation after 10000 epochs*batch: 0.104821
+
+names ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+(50000, 3072) (50000,)
+Epoch: 1 cost = 2.30275731223
+Validation Accuracy: 0.104821
+Test Accuracy: 0.10142
+Epoch: 2 cost = 2.30258381912
+Validation Accuracy: 0.104821
+Test Accuracy: 0.10142
+Epoch: 3 cost = 2.30257875647
+Validation Accuracy: 0.104821
+Test Accuracy: 0.10142
+
+
+Trial 3
+
+epochs to reach .4 validation: 12
+validation after 10000 epochs*batch: 0.516103
+
+names ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+(50000, 3072) (50000,)
+Epoch: 1 cost = 2.351235716
+Validation Accuracy: 0.104821
+Test Accuracy: 0.10202
+Epoch: 2 cost = 2.23568988119
+Validation Accuracy: 0.215043
+Test Accuracy: 0.212442
+Epoch: 3 cost = 2.09273071323
+Validation Accuracy: 0.244249
+Test Accuracy: 0.25005
+Epoch: 4 cost = 2.03082118341
+Validation Accuracy: 0.257652
+Test Accuracy: 0.263853
+Epoch: 5 cost = 1.98648810625
+Validation Accuracy: 0.267854
+Test Accuracy: 0.271454
+Epoch: 6 cost = 1.90498644148
+Validation Accuracy: 0.313663
+Test Accuracy: 0.317163
+Epoch: 7 cost = 1.79330410174
+Validation Accuracy: 0.314063
+Test Accuracy: 0.317463
+Epoch: 8 cost = 1.74126559564
+Validation Accuracy: 0.332266
+Test Accuracy: 0.339568
+Epoch: 9 cost = 1.69917347465
+Validation Accuracy: 0.332667
+Test Accuracy: 0.342469
+Epoch: 10 cost = 1.65880527701
+Validation Accuracy: 0.336667
+Test Accuracy: 0.342268
+Epoch: 11 cost = 1.59554552521
+Validation Accuracy: 0.39888
+Test Accuracy: 0.39968
+Epoch: 12 cost = 1.49808907713
+Validation Accuracy: 0.40188
+Test Accuracy: 0.413383
+Epoch: 13 cost = 1.44363779443
+Validation Accuracy: 0.411082
+Test Accuracy: 0.417484
+Epoch: 14 cost = 1.40184342078
+Validation Accuracy: 0.408282
+Test Accuracy: 0.417584
+Epoch: 15 cost = 1.36039452893
+Validation Accuracy: 0.414283
+Test Accuracy: 0.414583
+Epoch: 16 cost = 1.32414060865
+Validation Accuracy: 0.416483
+Test Accuracy: 0.418984
+Epoch: 17 cost = 1.30046500853
+Validation Accuracy: 0.418684
+Test Accuracy: 0.416883
+Epoch: 18 cost = 1.27255653041
+Validation Accuracy: 0.396079
+Test Accuracy: 0.396779
+Epoch: 19 cost = 1.24938209227
+Validation Accuracy: 0.412683
+Test Accuracy: 0.411182
+Epoch: 20 cost = 1.22760342819
+Validation Accuracy: 0.416883
+Test Accuracy: 0.417984
+Epoch: 21 cost = 1.21056989091
+Validation Accuracy: 0.412483
+Test Accuracy: 0.413483
+Epoch: 22 cost = 1.19588462523
+Validation Accuracy: 0.405281
+Test Accuracy: 0.410282
+Epoch: 23 cost = 1.18150817565
+Validation Accuracy: 0.414283
+Test Accuracy: 0.414583
+Epoch: 24 cost = 1.16787747281
+Validation Accuracy: 0.40028
+Test Accuracy: 0.405081
+Epoch: 25 cost = 1.09033746123
+Validation Accuracy: 0.474495
+Test Accuracy: 0.471894
+Epoch: 26 cost = 1.0174197885
+Validation Accuracy: 0.476695
+Test Accuracy: 0.474295
+Epoch: 27 cost = 0.994879956416
+Validation Accuracy: 0.464693
+Test Accuracy: 0.466193
+Epoch: 28 cost = 0.980896289689
+Validation Accuracy: 0.483897
+Test Accuracy: 0.482497
+Epoch: 29 cost = 0.964097917931
+Validation Accuracy: 0.472094
+Test Accuracy: 0.473095
+Epoch: 30 cost = 0.949831678527
+Validation Accuracy: 0.472695
+Test Accuracy: 0.476495
+Epoch: 31 cost = 0.938721067054
+Validation Accuracy: 0.472294
+Test Accuracy: 0.476295
+Epoch: 32 cost = 0.930478070463
+Validation Accuracy: 0.476895
+Test Accuracy: 0.478796
+Epoch: 33 cost = 0.916545841013
+Validation Accuracy: 0.479896
+Test Accuracy: 0.476095
+Epoch: 34 cost = 0.908802828789
+Validation Accuracy: 0.478696
+Test Accuracy: 0.476995
+Epoch: 35 cost = 0.901031791312
+Validation Accuracy: 0.478296
+Test Accuracy: 0.484397
+Epoch: 36 cost = 0.89504531656
+Validation Accuracy: 0.475295
+Test Accuracy: 0.477395
+Epoch: 37 cost = 0.889338265487
+Validation Accuracy: 0.474095
+Test Accuracy: 0.475495
+Epoch: 38 cost = 0.884067991291
+Validation Accuracy: 0.476695
+Test Accuracy: 0.479796
+Epoch: 39 cost = 0.878375728982
+Validation Accuracy: 0.479296
+Test Accuracy: 0.473695
+Epoch: 40 cost = 0.871178376334
+Validation Accuracy: 0.474295
+Test Accuracy: 0.475395
+Epoch: 41 cost = 0.868221942016
+Validation Accuracy: 0.477095
+Test Accuracy: 0.472094
+Epoch: 42 cost = 0.866981812886
+Validation Accuracy: 0.473095
+Test Accuracy: 0.474695
+Epoch: 43 cost = 0.860610429219
+Validation Accuracy: 0.471494
+Test Accuracy: 0.471394
+Epoch: 44 cost = 0.859953529835
+Validation Accuracy: 0.468494
+Test Accuracy: 0.467494
+Epoch: 45 cost = 0.856478549583
+Validation Accuracy: 0.471094
+Test Accuracy: 0.477596
+Epoch: 46 cost = 0.850589321511
+Validation Accuracy: 0.467093
+Test Accuracy: 0.469494
+Epoch: 47 cost = 0.847405127798
+Validation Accuracy: 0.480296
+Test Accuracy: 0.476395
+Epoch: 48 cost = 0.848898933445
+Validation Accuracy: 0.477095
+Test Accuracy: 0.475795
+Epoch: 49 cost = 0.842085214513
+Validation Accuracy: 0.466093
+Test Accuracy: 0.474195
+Epoch: 50 cost = 0.841327825444
+Validation Accuracy: 0.471294
+Test Accuracy: 0.469194
+Epoch: 51 cost = 0.839405173234
+Validation Accuracy: 0.468494
+Test Accuracy: 0.466193
+Epoch: 52 cost = 0.838046021291
+Validation Accuracy: 0.472895
+Test Accuracy: 0.472294
+Epoch: 53 cost = 0.836592400925
+Validation Accuracy: 0.473495
+Test Accuracy: 0.472194
+Epoch: 54 cost = 0.830880557299
+Validation Accuracy: 0.465493
+Test Accuracy: 0.471194
+Epoch: 55 cost = 0.829339218821
+Validation Accuracy: 0.471894
+Test Accuracy: 0.475795
+Epoch: 56 cost = 0.830980602503
+Validation Accuracy: 0.465893
+Test Accuracy: 0.469594
+Epoch: 57 cost = 0.826096395765
+Validation Accuracy: 0.472294
+Test Accuracy: 0.470894
+Epoch: 58 cost = 0.827989422083
+Validation Accuracy: 0.477495
+Test Accuracy: 0.474995
+Epoch: 59 cost = 0.821210930177
+Validation Accuracy: 0.478696
+Test Accuracy: 0.475795
+Epoch: 60 cost = 0.821295023816
+Validation Accuracy: 0.469294
+Test Accuracy: 0.473395
+Epoch: 61 cost = 0.822895839725
+Validation Accuracy: 0.477095
+Test Accuracy: 0.474995
+Epoch: 62 cost = 0.818794846875
+Validation Accuracy: 0.468694
+Test Accuracy: 0.469794
+Epoch: 63 cost = 0.816362805537
+Validation Accuracy: 0.465093
+Test Accuracy: 0.469094
+Epoch: 64 cost = 0.816702089821
+Validation Accuracy: 0.466093
+Test Accuracy: 0.469894
+Epoch: 65 cost = 0.813910106931
+Validation Accuracy: 0.476295
+Test Accuracy: 0.474795
+Epoch: 66 cost = 0.811750381333
+Validation Accuracy: 0.472695
+Test Accuracy: 0.477095
+Epoch: 67 cost = 0.816065392154
+Validation Accuracy: 0.464093
+Test Accuracy: 0.466593
+Epoch: 68 cost = 0.810035721915
+Validation Accuracy: 0.463293
+Test Accuracy: 0.465493
+Epoch: 69 cost = 0.809542404584
+Validation Accuracy: 0.473495
+Test Accuracy: 0.472795
+Epoch: 70 cost = 0.807916694539
+Validation Accuracy: 0.467694
+Test Accuracy: 0.470994
+Epoch: 71 cost = 0.809820530925
+Validation Accuracy: 0.465493
+Test Accuracy: 0.464893
+Epoch: 72 cost = 0.809683277948
+Validation Accuracy: 0.475095
+Test Accuracy: 0.472294
+Epoch: 73 cost = 0.806619936057
+Validation Accuracy: 0.471094
+Test Accuracy: 0.466193
+Epoch: 74 cost = 0.80383780224
+Validation Accuracy: 0.472895
+Test Accuracy: 0.471894
+Epoch: 75 cost = 0.801220353161
+Validation Accuracy: 0.470294
+Test Accuracy: 0.470794
+Epoch: 76 cost = 0.786969642639
+Validation Accuracy: 0.487498
+Test Accuracy: 0.482096
+Epoch: 77 cost = 0.751928337387
+Validation Accuracy: 0.493299
+Test Accuracy: 0.4993
+Epoch: 78 cost = 0.724476596372
+Validation Accuracy: 0.507301
+Test Accuracy: 0.509202
+Epoch: 79 cost = 0.692974303194
+Validation Accuracy: 0.506701
+Test Accuracy: 0.509302
+Epoch: 80 cost = 0.676518718515
+Validation Accuracy: 0.507902
+Test Accuracy: 0.509602
+Epoch: 81 cost = 0.668200810552
+Validation Accuracy: 0.510702
+Test Accuracy: 0.515703
+Epoch: 82 cost = 0.64878894295
+Validation Accuracy: 0.512102
+Test Accuracy: 0.514103
+Epoch: 83 cost = 0.640930626307
+Validation Accuracy: 0.513103
+Test Accuracy: 0.514503
+Epoch: 84 cost = 0.636759215082
+Validation Accuracy: 0.512903
+Test Accuracy: 0.519304
+Epoch: 85 cost = 0.630341243233
+Validation Accuracy: 0.506301
+Test Accuracy: 0.509802
+Epoch: 86 cost = 0.624890628968
+Validation Accuracy: 0.517103
+Test Accuracy: 0.521404
+Epoch: 87 cost = 0.618942700965
+Validation Accuracy: 0.511902
+Test Accuracy: 0.515703
+Epoch: 88 cost = 0.614483601877
+Validation Accuracy: 0.511302
+Test Accuracy: 0.517604
+Epoch: 89 cost = 0.61128975434
+Validation Accuracy: 0.517103
+Test Accuracy: 0.525505
+Epoch: 90 cost = 0.609245573027
+Validation Accuracy: 0.512903
+Test Accuracy: 0.513403
+Epoch: 91 cost = 0.609085795539
+Validation Accuracy: 0.513503
+Test Accuracy: 0.516303
+Epoch: 92 cost = 0.605535512567
+Validation Accuracy: 0.518504
+Test Accuracy: 0.519504
+Epoch: 93 cost = 0.60015572037
+Validation Accuracy: 0.509502
+Test Accuracy: 0.512803
+Epoch: 94 cost = 0.599864902667
+Validation Accuracy: 0.515703
+Test Accuracy: 0.513203
+Epoch: 95 cost = 0.59593477445
+Validation Accuracy: 0.519904
+Test Accuracy: 0.519604
+Epoch: 96 cost = 0.593773527401
+Validation Accuracy: 0.504901
+Test Accuracy: 0.515803
+Epoch: 97 cost = 0.587190595695
+Validation Accuracy: 0.516503
+Test Accuracy: 0.521704
+Epoch: 98 cost = 0.586236878548
+Validation Accuracy: 0.514903
+Test Accuracy: 0.518504
+Epoch: 99 cost = 0.58400215498
+Validation Accuracy: 0.509902
+Test Accuracy: 0.517904
+Epoch: 100 cost = 0.583517969251
+Validation Accuracy: 0.516103
+Test Accuracy: 0.519104
+
+
+Trial 4- ran 17 epochs
+
+epochs to reach .4 validation: 15 epochs
+
+names ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+(50000, 3072) (50000,)
+Epoch: 1 cost = 2.15023608412
+Validation Accuracy: 0.25105
+Test Accuracy: 0.243049
+Epoch: 2 cost = 1.96636858497
+Validation Accuracy: 0.265853
+Test Accuracy: 0.271754
+Epoch: 3 cost = 1.89891997508
+Validation Accuracy: 0.282456
+Test Accuracy: 0.286257
+Epoch: 4 cost = 1.83966165543
+Validation Accuracy: 0.294459
+Test Accuracy: 0.29896
+Epoch: 5 cost = 1.77576812676
+Validation Accuracy: 0.327866
+Test Accuracy: 0.334467
+Epoch: 6 cost = 1.69324125222
+Validation Accuracy: 0.332667
+Test Accuracy: 0.345069
+Epoch: 7 cost = 1.6364352325
+Validation Accuracy: 0.344069
+Test Accuracy: 0.343769
+Epoch: 8 cost = 1.57910997255
+Validation Accuracy: 0.34827
+Test Accuracy: 0.34907
+Epoch: 9 cost = 1.53536938429
+Validation Accuracy: 0.35247
+Test Accuracy: 0.35147
+Epoch: 10 cost = 1.48801043783
+Validation Accuracy: 0.353671
+Test Accuracy: 0.353871
+Epoch: 11 cost = 1.44823323931
+Validation Accuracy: 0.345069
+Test Accuracy: 0.344669
+Epoch: 12 cost = 1.40354292801
+Validation Accuracy: 0.361072
+Test Accuracy: 0.357972
+Epoch: 13 cost = 1.36601133755
+Validation Accuracy: 0.359872
+Test Accuracy: 0.360972
+Epoch: 14 cost = 1.33730568375
+Validation Accuracy: 0.341668
+Test Accuracy: 0.345469
+Epoch: 15 cost = 1.21040171759
+Validation Accuracy: 0.405681
+Test Accuracy: 0.405281
+Epoch: 16 cost = 1.13441099763
+Validation Accuracy: 0.418684
+Test Accuracy: 0.409882
+Epoch: 17 cost = 1.09782910926
+Validation Accuracy: 0.413083
+Test Accuracy: 0.411182
