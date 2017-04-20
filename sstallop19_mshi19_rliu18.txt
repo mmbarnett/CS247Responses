@@ -1,0 +1,12 @@
+Reached validation accuracy of 0.4 after 2 epochs
+Program never completed more than 5 epochs in one run without crashing
+
+Epoch: 1 cost = 2.24297438451
+Validation Accuracy: 0.272054
+Test Accuracy: 0.276655
+Epoch: 2 cost = 1.65628396954
+Validation Accuracy: 0.408482
+Test Accuracy: 0.424185
+Epoch: 3 cost = 1.3681640029
+Validation Accuracy: 0.454491
+Test Accuracy: 0.476695
