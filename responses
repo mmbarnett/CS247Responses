@@ -6,7 +6,6 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.645
 Add your names (all your names), a brief description of the
 modification you made (what's on the assignment is fine) and the summary results:
 
-
 A. Names: Nirman Dave, Mei Zhou, Alina Dao
 Description: run two different learning rates, one larger and one smaller
 Summary of Results:
@@ -18,12 +17,22 @@ Learning Rate = 0.3
 Number of epochs to reach a validation accuracy of 0.4: Epoch 5
 Validation accuracy after 100 epochs (batch_size = 100): 0.492098
 
+B: Change batch size from 100 to 1000
+Validation accuracy after 10 epochs (batch size = 1000): 0.3809
+First time validation accuracy > 0.4 is after 12 epochs
+
+After 102 epochs, validation accuracy is 0.6
+
+C: John Festa, Max Roche, John Cross
+Description: run a batch size of 20
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Never
+Validation accuracy after 100 epochs (batch_size = 100) : 0.10482097
 
 D: Ian Nanez, Obi Daniel, Hutomo Limanto
 We changed the size of the fully connected hidden layer to 512.
 It took us 2 epochs to reach a validation accuracy > 0.4. 
 After 10000 epochs * batch size, our validation accuracy is 0.641.
-
 
 E. Names: Saharsha Karki, Evelyn Ting, Zach Bessette
 Description: Change the size of the fully connected hidden layer to 256
@@ -31,13 +40,11 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 2
 Validation accuracy after 100 epochs (batch_size = 100): 0.643529
 
-
 F. Names: Ella Yarmo-Gray, Lehua Matsumoto, Sarah Teichman
 Description: Changed the size of the fully connected hidden layer to 2048
 Summary results:
 - It took 4 epochs to reach validation accuracy of 0.4
 - Validation accuracy after 100 epochs with 100 batch size = 0.58191639
-
 
 G. Names: Mahesh Dhulipala, Ian McClaugherty, Bishesh Yadav
 Description: Remove Dropout
@@ -65,8 +72,6 @@ With different params 3 epochs,  validation .57 after 9
 J. Names: Nicholas Lafky, Connor Haley, Phong Hoang
 Description: Use momentum optimization with a momentum of 0.5
 
-
-
 **Note: we were supposed to use a momentum of 0.9 but neither the validation
 accuracy or the test accuracy were changing at all. Thus we opted for a 
 momentum of .5.
@@ -92,7 +97,6 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.56391281
 
-
 N. Names: Andrew Kim, Emily Masten
 Description: Change the number of features in the first convolution layer to 64.
 Summary Results:
@@ -104,8 +108,6 @@ Description: Change the number of features in the second convolution layer to 32
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.64112824
-
-
 
 P. Names: Zeina Amhaz, Patrick Liu
 Description: Change the number of features in the second conv layer to 16
@@ -124,12 +126,18 @@ Description: 7x7 Convolutions
 Number of epochs to reach a validation accuracy of 0.4: 11
 Validation accuracy after 100 epochs (batch_size = 100): 0.575515
 
+S. Shu (Roy) Liu, Sam Stallop and Michael Shi.
+Description: change the maxpool layers so they have a stride of 1 (so the size of the image does not decrease
+
+Reached validation accuracy of 0.4 after 2 epochs
++Program never completed more than 5 epochs in one run without crashing
+
+
 T. Names: Tiffany Kha, Jordan Browning, Azka Javaid
 Description: add another conv/relu/maxpool layer so that the input to the fully connected layer is 3x3. 
 Summary results: 
 - took 8 epochs to get to a validation accuracy of .4
 validation accuracy after 100 epochs w/ batch size 100 = .56631327
-
 
 U. Names: Oluwatobi Oni-Orisan, Amal Buford, Mohammed Ibrahim
 Description: Add another conv/relu/maxpool layer while maintaining the
@@ -155,8 +163,6 @@ Description: Add a second fully connected layer but make the size of both 128.
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
-
-
 
 Y. Names: Michael Barnett, Denison Marsland-Rello, Miriam De La Riva Ovalle
 Description: Eliminate the conv layers, leaving an ordinary NN with 1024 hidden units
