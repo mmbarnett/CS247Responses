@@ -122,6 +122,12 @@ Summary Results:
 - Took 11 epochs to get a validation accuracy of 0.4
 - Validation accuracy after epoch 100: 0.593619 (batch size = 100)
 
+W. Names: Jackson Herrick, Drew Kelleher
+Description: Add a second fully connected layer of size 128.
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 8
+Validation accuracy after 100 epochs (batch_size = 100): 0.65893179
+
 X. Names: Ehsan Mojahedi, Jack Muller, Olivia Pinney
 Description: Add a second fully connected layer but make the size of both 128.
 Summary Results:
