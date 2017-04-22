@@ -11,3 +11,9 @@ Description: Change the number of features in the second conv layer to 128, lear
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 7
 Validation accuracy after 100 epochs (batch_size = 100): 0.63772756
+
+D. Names: Ian Nanez, Hutomo Limanto, Obi Daniel Ezeogu
+Description: use momentum optimization with a momentum of 0.5, learning rate 0.001
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 20
+Validation accuracy after 100 epochs (batch_size = 100): 0.59751952
