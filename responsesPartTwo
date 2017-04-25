@@ -6,6 +6,12 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.645
 Add your names (all your names), a brief description of the
 modification you made (what's on the assignment is fine) and the summary results:
 
+D. Names: Ian Nanez, Hutomo Limanto, Obi Daniel Ezeogu
+Description: use momentum optimization with a momentum of 0.5, learning rate 0.001
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 20
+Validation accuracy after 100 epochs (batch_size = 100): 0.59751952
+
 M. Names: Daniel Mariselli, Alex Chou, Carina Corbin
 Description: Change the number of features in the second conv layer to 128, learning rate of 0.01
 Summary Results:
@@ -17,3 +23,4 @@ Description: add another convu/relu/maxpool layer but keep input to fully connec
 Summary results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 2 (previously with max pool Epoch 8)
 Validation accuracy after 100 epochs (batch_size = 100): 0.70003998 [previously with maxpool .5663]
+
