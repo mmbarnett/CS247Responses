@@ -24,3 +24,9 @@ Summary results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 2 (previously with max pool Epoch 8)
 Validation accuracy after 100 epochs (batch_size = 100): 0.70003998 [previously with maxpool .5663]
 
+V. Names: Evan Wolf, Brendan Routh, Gab Conclaves
+Description: add a second fully connected layer of size 256
+Summary results:
+Number of epochs to reach a validation accuracy of 0.4: 25
+Validation accuracy after 100 epochs (batch_size = 100): 0.658532
+
