@@ -30,3 +30,10 @@ Summary results:
 Number of epochs to reach a validation accuracy of 0.4: 25
 Validation accuracy after 100 epochs (batch_size = 100): 0.658532
 
+O. Names: Andrew Kim and Emily Masten
+Description: Keep percentage at 0.5; fully connected hidden layer of size 1536
+(second convolution layer size = 32)
+Summary results:
+Number of epochs to reach a validation accuracy of 0.4: 8
+Validation accuracy after 100 epochs (batch_size = 100): 0.62292457
+
