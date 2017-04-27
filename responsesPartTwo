@@ -53,12 +53,19 @@ Number of epochs to reach a validation accuracy of 0.4: 5
 Validation accuracy after 100 epochs (batch_size = 100): 0.64132828
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57d3d6ea779628212a68cee0b16a7b97ed4aa43a
 R. Names: Megan Root, Harrison Marick, Dorit Song
 Description: Changed dropout keep_prob to 0.8 and made stride length of one max pool layer 1
 Number of Epochs to reach validation accuracy of 0.4: 5
 Validation accuracy after 100 epochs (batch_size=100): 0.592118
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 57d3d6ea779628212a68cee0b16a7b97ed4aa43a
 T. Names: Tiffany Kha, Azka Javaid, Jordan Browning 
 Description: add another convu/relu/maxpool layer but keep input to fully connected layer at 3x3 compare to tf.nn.avg_pool
 Summary results:
@@ -72,5 +79,8 @@ Number of epochs to reach a validation accuracy of 0.4: 25
 Validation accuracy after 100 epochs (batch_size = 100): 0.658532
 
 
+<<<<<<< HEAD
 
 >>>>>>> 8a31a304bccf72eb5ff53ca82f7df5c66547b603
+=======
+>>>>>>> 57d3d6ea779628212a68cee0b16a7b97ed4aa43a
