@@ -1,11 +1,18 @@
+
 Partners: Hunter Voegele, Laura Schmidlein, Andrew Ferrero
 
 Assignment: Compare the original pooling to compare this to tf.nn.avg_pool
 
-Number of epochs to reach a valida
+Notes:
+tf.nn_avg_pool() worked much better than the original pooling. Not only did it get to a high validation and test accuracy much faster than the original pooling, it also avoided overfitting for many more epochs. Although the accuracy was lower at 100 epochs, this is because the accuracy fluctuated from .64 - .65 until the 115 epoch, then overfitting drove the accuracy down gradually (much less gradual than the original).
 
+tf.nn_avg_pool() statistics:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 1
 Validation accuracy after 100 epochs (batch_size = 100): 0.640728
+
+Original baseline statistics:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.645
 
 Data:
 
