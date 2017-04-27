@@ -20,6 +20,13 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 20
 Validation accuracy after 100 epochs (batch_size = 100): 0.59751952
 
+E. Names: Evelyn Ting, Zach Bessette, Saharsha Karki
+Description: use momentum optimization with a momentum of 0.5, learning rate 0.01
+Summary of Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.664233
+Note:  Zach and Saharsha’s programs got stuck with the original seed.  Evelyn’s never did.  Also, Evelyn’s validation accuracy was significantly higher on each epoch for each run.
+
 F. Names: Sarah Teichman, Lehua Matsumoto, Ella Yarmo-Gray
 Description: Keep percentage to 0.9, fully connected hidden layer of 256
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
