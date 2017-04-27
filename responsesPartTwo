@@ -93,6 +93,15 @@ Summary results:
 Number of epochs to reach a validation accuracy of 0.4: 25
 Validation accuracy after 100 epochs (batch_size = 100): 0.658532
 
+X. Names: Ehsan Mojahedi, Jack Muller, Olivia Pinney
+Description: "Use a learning rate that increases if something is going well dropping and decreases if going badly."
+Summary of Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 6
+Validation accuracy after 100 epochs: 0.10482097
+Note: Our validation and test accuracy dropped sharply at epoch 88. This issue could be avoided by implementing
+more complex logic to change the learning rate. Improved logic would only increase or decrease the learning
+rate if there is a significant change in loss (avg_cost) between epochs. 
+
 
 <<<<<<< HEAD
 
