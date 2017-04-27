@@ -25,7 +25,7 @@ Description: use momentum optimization with a momentum of 0.5, learning rate 0.0
 Summary of Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.664233
-Note:  Zach and Saharsha’s programs got stuck with the original seed.  Evelyn’s never did.  Also, Evelyn’s validation accuracy was significantly higher on each epoch for each run.
+Note:  Zach and Saharsha’s programs got stuck with the original seed.  Evelyn’s never did.  Also, Evelyn’s validation accuracy was higher than Zach and Saharsha’s for each epoch for each run (even though we had the same code).
 
 F. Names: Sarah Teichman, Lehua Matsumoto, Ella Yarmo-Gray
 Description: Keep percentage to 0.9, fully connected hidden layer of 256
