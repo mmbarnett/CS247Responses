@@ -56,4 +56,7 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: 5
 Validation accuracy after 100 epochs (batch_size = 100): 0.64132828
 
-
+R. Names: Megan Root, Harrison Marick, Dorit Song
+Description: Changed dropout keep_prob to 0.8 and made stride length of one max pool layer 1
+Number of Epochs to reach validation accuracy of 0.4: 5
+Validation accuracy after 100 epochs (batch_size=100): 0.592118
