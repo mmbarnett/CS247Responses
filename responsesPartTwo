@@ -102,6 +102,12 @@ Note: Our validation and test accuracy dropped sharply at epoch 88. This issue c
 more complex logic to change the learning rate. Improved logic would only increase or decrease the learning
 rate if there is a significant change in loss (avg_cost) between epochs. 
 
+Y. Names: Michael Barnett, Miriam De La Riva Ovalle, Denison Marsland-Rello
+Description: “use a learning rate that gradually decreases (make the learning rate a placeholder so it can change).
+Summary of results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 231
+Validation accuracy after 100 epochs: 0.35007
+
 
 <<<<<<< HEAD
 
