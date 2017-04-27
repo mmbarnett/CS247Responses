@@ -33,6 +33,13 @@ Number of epochs to reach a validation accuracy of 0.4: 2
 Validation accuracy after 100 epochs: 0.64592916
 Note: Validation accuracy after 708 epochs: 0.62652528
 
+I. Name: Sean Fitzgerald, Reynaldo Peña, Juan Guaracao
+Description: Use momentum optimization with a momentum of 0.5, learning rate 0.1
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: 4
+Validation accuracy after 100 epochs: 0.66313261
+Note: Validation accuracy after 265 epochs: 0.66433287
+
 
 M. Names: Daniel Mariselli, Alex Chou, Carina Corbin
 Description: Change the number of features in the second conv layer to 128, learning rate of 0.01
