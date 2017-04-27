@@ -39,18 +39,6 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 7
 Validation accuracy after 100 epochs (batch_size = 100): 0.63772756
 
-T. Names: Tiffany Kha, Azka Javaid, Jordan Browning 
-Description: add another convu/relu/maxpool layer but keep input to fully connected layer at 3x3 compare to tf.nn.avg_pool
-Summary results:
-Number of epochs to reach a validation accuracy of 0.4: Epoch 2 (previously with max pool Epoch 8)
-Validation accuracy after 100 epochs (batch_size = 100): 0.70003998 [previously with maxpool .5663]
-
-V. Names: Evan Wolf, Brendan Routh, Gab Conclaves
-Description: add a second fully connected layer of size 256
-Summary results:
-Number of epochs to reach a validation accuracy of 0.4: 25
-Validation accuracy after 100 epochs (batch_size = 100): 0.658532
-
 O. Names: Andrew Kim and Emily Masten
 Description: Keep percentage at 0.5; fully connected hidden layer of size 1536
 (second convolution layer size = 32)
@@ -63,5 +51,18 @@ Description: Add a second fully connected layer but make the first 256 and secon
 Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: 5
 Validation accuracy after 100 epochs (batch_size = 100): 0.64132828
+
+T. Names: Tiffany Kha, Azka Javaid, Jordan Browning 
+Description: add another convu/relu/maxpool layer but keep input to fully connected layer at 3x3 compare to tf.nn.avg_pool
+Summary results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 2 (previously with max pool Epoch 8)
+Validation accuracy after 100 epochs (batch_size = 100): 0.70003998 [previously with maxpool .5663]
+
+V. Names: Evan Wolf, Brendan Routh, Gab Conclaves
+Description: add a second fully connected layer of size 256
+Summary results:
+Number of epochs to reach a validation accuracy of 0.4: 25
+Validation accuracy after 100 epochs (batch_size = 100): 0.658532
+
 
 
