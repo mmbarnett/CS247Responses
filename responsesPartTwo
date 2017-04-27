@@ -1,5 +1,6 @@
 Original Baseline results:
 
+
 Number of epochs to reach a validation accuracy of 0.4: Epoch 3
 Validation accuracy after 100 epochs (batch_size = 100): 0.645
 
