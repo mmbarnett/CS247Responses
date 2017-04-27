@@ -6,6 +6,13 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.645
 Add your names (all your names), a brief description of the
 modification you made (what's on the assignment is fine) and the summary results:
 
+A. Names: Nirman Dave, Mei Zhou, Alina Dao
+Description: use momentum optimization with a momentum of 0.9, learning rate 0.001
+Summary of Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 9
+Validation accuracy after 100 epochs: 0.64432889
+Note: We ran the program to completion at 1000 Epoches. We found out that the validation accuracy did not ever reach 0.66. At around 150 epoches, it started to fluctuate between 0.65 and 0.648/0.649.  
+
 D. Names: Ian Nanez, Hutomo Limanto, Obi Daniel Ezeogu
 Description: use momentum optimization with a momentum of 0.5, learning rate 0.001
 Summary Results:
